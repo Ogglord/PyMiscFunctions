@@ -1,3 +1,4 @@
 json2html
 requests
 redis
+pytest

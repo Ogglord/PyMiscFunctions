@@ -5,7 +5,7 @@ from .fuzip import Zip
 
 from .fumail import Mail 
 
-from .fucache import Cache
+from .fucache import CacheForTest, CacheRedis
 
 from .fusession import Session
 

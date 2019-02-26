@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": ".futilsenv\\Scripts\\python.exe"
+    "python.pythonPath": ".futilsenv\\Scripts\\python.exe",
+    "python.unitTest.pyTestEnabled": true
 }

@@ -1,16 +1,15 @@
 ### Class to handle most calls to cache/zip/settings/mail/cache variables etc..
 import tempfile
 ### our modules
-from .fucache import Cache as c
-from .fuzip import Zip as z
+from .fuzip import Zip as zip
 
 
 class Session():
-    def __init__(self, config, sessionid):
+    def __init__(self, config, sessionid, cache):
         self.config = config
         self.sessionid=sessionid
-        self.cache = c(self.config)
-        self.zip = z(self.config)
+        self.cache = cache
+        self.zip = zip(self.config)
         # test connection
         self.cache.ping()
 
