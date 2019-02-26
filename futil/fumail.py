@@ -9,7 +9,7 @@ class Mail():
         with BytesIO() as fp:
         #json.dump(dataAsJson,fp, indent=3, sort_keys=True)
             
-            fp.write(dumps(dataAsJson,indent=3,sort_keys=False).encode()) 
+            fp.write(dumps(dataAsJson,indent=3,sort_keys=False, ensure_ascii=False).encode('utf8')) 
         
             dataAsHtml = json2html.convert(json = dataAsJson)
             body = "<html><h2>Claim Data</h2><br/><br/>{}</html>".format(dataAsHtml)
