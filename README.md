@@ -2,10 +2,10 @@
 
 List of tools:
 
+* Session
 * Zip
 * Mail
-* Redis Cache for Session variables
-
+* Redis Cache
 * Read Excel (coming soon)
 * FTP download  (coming soon)
 * NoSQL read/write  (coming soon)
