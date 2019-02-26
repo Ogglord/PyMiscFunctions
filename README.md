@@ -6,7 +6,7 @@ List of tools:
 * Zip
 * Mail
 * Redis Cache
+* FTP download
 
 * Read Excel (coming soon)
-* FTP download  (coming soon)
 * SQLite read/write  (coming soon)
