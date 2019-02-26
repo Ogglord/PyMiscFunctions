@@ -9,4 +9,4 @@ List of tools:
 
 * Read Excel (coming soon)
 * FTP download  (coming soon)
-* NoSQL read/write  (coming soon)
+* SQLite read/write  (coming soon)
