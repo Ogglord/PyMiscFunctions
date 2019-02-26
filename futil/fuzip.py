@@ -6,15 +6,11 @@ from os import path
 class Zip():
     def __init__(self, config):
         self.config = config
-        if config.TMP_FOLDER == None:
-            self.TMP_FOLDER = gettempdir()
-        else:
-            self.TMP_FOLDER = config.TMP_FOLDER()
         self.randomname = _RandomNameSequence()
 
 
     def gettempfile(self):
-        return path.join(self.TMP_FOLDER,self.randomname.__next__() + ".zip")
+        return path.join(self.config.TMP_FOLDER,self.randomname.__next__() + ".zip")
 
     def zipfiles(self, fileasarray):
         tmpzip = self.gettempfile()

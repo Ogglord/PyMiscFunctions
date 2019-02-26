@@ -1,1 +1,5 @@
 .futilsenv/
+.pytest_cache/
+test/__pycache__/
+futil/__pycache__/
+
