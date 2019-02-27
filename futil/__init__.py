@@ -9,6 +9,8 @@ from .fucache import CacheForTest, CacheRedis
 
 from .fusession import Session
 
+from .fusqlite import CheckReg
+
 ##### installed modules required in this package ###
 ### json2html
 ### requests
