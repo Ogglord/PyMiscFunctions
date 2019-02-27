@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 []
+=======
+[
+  "test/test_ftp.py::test_session"
+]
+>>>>>>> 484760fb44df8b45208247c12e0445cd258b6991

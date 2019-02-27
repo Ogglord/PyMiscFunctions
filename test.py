@@ -9,8 +9,9 @@ import json ## remove later
 appconfig = f.DevelopmentConfig
 ### appconfig = config.ProductionConfig ## PROD
 
-### create session object
-s = f.Session(appconfig,"123123123")
+
+cache = f.CacheRedis(appconfig)
+s = f.Session(appconfig,"123123123",cache)
 
 #read a single vlaue from previous request
 name = s["name"]

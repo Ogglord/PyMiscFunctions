@@ -1,4 +1,5 @@
 .futilsenv/
+<<<<<<< HEAD
 .vscode/settings.json
 __pycache__/test_sqlite.cpython-36-PYTEST.pyc
 futil/__pycache__/__init__.cpython-36.pyc
@@ -13,3 +14,9 @@ test/__pycache__/test_fuzip.cpython-36-PYTEST.pyc
 .pytest_cache/v/cache/nodeids
 .pytest_cache/v/cache/lastfailed
 .vscode/settings.json
+=======
+.pytest_cache/
+test/__pycache__/
+futil/__pycache__/
+
+>>>>>>> 484760fb44df8b45208247c12e0445cd258b6991
